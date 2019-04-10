@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/file" android:title="File" android:icon="@mipmap/ic_launcher_round"></item>
+
+    <item android:id="@+id/edit" android:title="Edit" android:icon="@mipmap/ic_launcher_round"></item>
+    <item
+        android:id="@+id/copy"
+        android:checkable="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Copy"></item>
+
+    <item android:id="@+id/paste" android:title="Paste" android:icon="@mipmap/ic_launcher_round"></item>
+
+
+ </menu>
