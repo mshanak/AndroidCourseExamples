@@ -11,4 +11,10 @@
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/f1btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 </LinearLayout>

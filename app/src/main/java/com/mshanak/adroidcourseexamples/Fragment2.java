@@ -28,4 +28,8 @@ public class Fragment2 extends Fragment {
         return view;
     }
 
+    public void setMessage(String msg){
+
+    }
+
 }

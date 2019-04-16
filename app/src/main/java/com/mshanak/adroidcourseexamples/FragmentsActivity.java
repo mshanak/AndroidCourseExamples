@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class FragmentsActivity extends AppCompatActivity {
+public class FragmentsActivity extends AppCompatActivity implements onItemSelectedInterface{
     Button btn1;
     Button btn2;
 
@@ -46,4 +46,9 @@ public class FragmentsActivity extends AppCompatActivity {
 
 
     }
+
+    public void passDataToOtherFragment(String msg){
+
+    }
+
 }
