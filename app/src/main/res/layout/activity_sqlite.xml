@@ -36,4 +36,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ADD" />
+
+    <Button
+        android:id="@+id/s_get_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Data" />
+
+    <ListView
+        android:id="@+id/people_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

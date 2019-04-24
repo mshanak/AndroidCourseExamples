@@ -1,11 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.mshanak.adroidcourseexamples"
         minSdkVersion 24
         targetSdkVersion 28
+        multiDexEnabled = true
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

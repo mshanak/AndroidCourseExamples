@@ -37,4 +37,14 @@ public class Person {
     public void setQualifications(String qualifications) {
         Qualifications = qualifications;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", Name='" + Name + '\'' +
+                ", LastName='" + LastName + '\'' +
+                ", Qualifications='" + Qualifications + '\'' +
+                '}';
+    }
 }
